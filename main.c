@@ -11,6 +11,7 @@ int main(int argc, char *argv[]) {
     scanf("%i", &input);
      
     printf("is %i leap year? : %i", input, (input%4==0 && input%100!=0)||(input%400==0));
+    printf("!!!!!");
     
     return 0;
 }
